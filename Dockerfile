@@ -1,4 +1,4 @@
-FROM python:3.8-slim
+FROM --platform=linux/arm64 python:3.8-slim
 
 # -- to install python package psycopg2 (for postgres) -- #
 # RUN apt-get update

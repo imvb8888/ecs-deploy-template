@@ -8,9 +8,10 @@ from flask import Flask
 
 app = Flask(__name__)
 
+
 @app.route('/')
 def hello_world() -> str:
-    return 'Hello world! How are you?'
+    return 'Hello world! How are you? YEAH YEAH'
 
 
 # db_config = get_secret('aws-ecs-demo-db-credentials', region_name='us-east-1')

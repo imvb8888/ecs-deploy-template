@@ -2,6 +2,7 @@ version: '3.1'
 
 services:
   aws-ecs-demo:
+    platform: linux/arm64
     build:
       context: ./
       dockerfile: ./Dockerfile
