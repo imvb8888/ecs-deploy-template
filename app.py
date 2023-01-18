@@ -11,7 +11,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world() -> str:
-    return 'Hello world! How are you? YEAH YEAH'
+    return 'Hello world! Why cant it run'
 
 
 # db_config = get_secret('aws-ecs-demo-db-credentials', region_name='us-east-1')
